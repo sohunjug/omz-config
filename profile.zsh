@@ -90,7 +90,7 @@ done
 # [[ ! -f $S_ZSH/aliases.zsh   ]] || source $S_ZSH/aliases.zsh
 # [[ ! -f $S_ZSH/lazy.zsh      ]] || source $S_ZSH/lazy.zsh
 # [[ ! -f $S_ZSH/p10k.zsh      ]] || source $S_ZSH/p10k.zsh
-[[ ! -f $HOME/.fzf.zsh       ]] || source $HOME/.fzf.zsh
+# [[ ! -f $HOME/.fzf.zsh       ]] || source $HOME/.fzf.zsh
 [[ ! -f $HOME/.local.zsh     ]] || source $HOME/.local.zsh
 
 if zplug check b4b4r07/enhancd; then

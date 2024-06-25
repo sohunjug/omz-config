@@ -14,6 +14,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias pshell="source .venv/bin/activate"
+alias nvi="neovide"
 
 alias pys="cd ~/Code/sohunjug/python/sohunjug"
 

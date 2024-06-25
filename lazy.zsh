@@ -29,6 +29,7 @@ lazy_eval() {
     # eval "$(fasd --init auto)"
     eval "$(direnv hook zsh)"
     eval "$(thefuck --alias)"
+    eval "$(fzf --zsh)"
     compdef _pipenv pipenv
     # eval "$($BREW_PREFIX/bin/brew shellenv)"
     # evalcache thefuck --alias

@@ -33,6 +33,7 @@ export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 export DISABLE_LS_COLORS=true
 export DOCKER_BUILDKIT=1
 export COMPOSE_DOCKER_CLI_BUILD=1
+export NEOVIDE_FORK=1
 
 export WORKON_HOME=~/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=$ASDF_DIR/shims/python3
@@ -178,4 +179,4 @@ if [[ "${OS}" != "Linux" ]]; then
   export CXXFLAGS="${CPPFLAGS}"
 fi
 
-[[ ! -f $HOME/.fzf.zsh       ]] || source $HOME/.fzf.zsh
+# [[ ! -f $HOME/.fzf.zsh       ]] || source $HOME/.fzf.zsh
